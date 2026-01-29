@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.hero-section {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-size: cover;
+  background-position: center;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-section h1 span {
+  color: #ffc107;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review-bg {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+  background-size: cover;
 }
+
+
+/* tttttttttt */
+
+.home-banner {
+  background-color: #ffd000 !important;
+  padding: 12rem 0;
+}
+
+.banner-car {
+  max-width: 100%;
+  animation: floatCar 3s ease-in-out infinite;
+}
+
+@keyframes floatCar {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+
+/* eeeeeeeeeeee */
