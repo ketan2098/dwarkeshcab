@@ -1,19 +1,9 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import {
-    FaCar,
-    FaUserFriends,
-    FaSuitcase,
-    FaSnowflake,
-    FaMapMarkedAlt,
-    FaUserTie,
-} from "react-icons/fa";
 import dzire from "../../assets/dzire.webp"; // Example image path
 import ertiga from "../../assets/ertiga.webp"; // Example image path
 import innova from "../../assets/innova.webp"; // Example image path
 import kia from "../../assets/kia.webp"; // Example image path
 import tempo from "../../assets/tempo.webp"; // Example image path
-import aboutCarImage from "../../assets/dzire.webp"; // Example image path
-
 
 const taxiData = [
     {
@@ -69,21 +59,6 @@ export default function TaxiCards() {
                                     <p className="price-text">{item.price}</p>
 
                                     <div className="divider"></div>
-                                    {/* 
-                                    <ul className="spec-list">
-                                        <li><FaCar /> Taxi Doors <span>4</span></li>
-                                        <li><FaUserFriends /> Passengers <span>4</span></li>
-                                        <li><FaSuitcase /> Luggage Carry <span>2</span></li>
-                                        <li><FaSnowflake /> Air Condition <span>Yes</span></li>
-                                        <li><FaMapMarkedAlt /> GPS Navigation <span>Yes</span></li>
-                                        <li><FaUserTie /> Driver Choosing <span>Yes</span></li>
-                                    </ul> */}
-                                    {/* <a href="tel:7046648733">
-                                        <Button className="book-btn">
-                                            BOOK TAXI NOW →
-                                        </Button>
-                                    </a> */}
-
                                     <Button className="book-btn" onClick={() => window.location.href = 'tel:+917046648733'}>
                                         BOOK TAXI NOW →
                                     </Button>

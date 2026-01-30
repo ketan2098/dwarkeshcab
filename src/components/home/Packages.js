@@ -1,7 +1,5 @@
 import Slider from "react-slick";
 import { Card, Button } from "react-bootstrap";
-import { FaUser, FaCalendarAlt } from "react-icons/fa";
-import aboutCarImage from "../../assets/about.png"; // Example image path
 import surat from "../../assets/surat.webp"; // Example image path
 import junagadh from "../../assets/junagadh.webp"; // Example image path
 import ahmd from "../../assets/ahmd.webp"; // Example image path
@@ -50,20 +48,6 @@ const slides = [
 ];
 
 export default function Packages() {
-    // const settings = {
-    //     dots: true,
-    //     arrows: false,
-    //     infinite: true,
-    //     speed: 1000,
-    //     slidesToShow: 4,
-    //     // slidesToScroll: 1,
-    //     responsive: [
-    //         { breakpoint: 992, settings: { slidesToShow: 2 } },
-    //         { breakpoint: 576, settings: { slidesToShow: 1 } },
-    //     ],
-    // };
-
-
 
     var settings = {
         dots: false,
@@ -106,30 +90,6 @@ export default function Packages() {
     return (
         <>
             <div className="slider-container mx-3">
-                {/* <Slider {...settings}>
-                    {slides.map((item, index) => (
-                        <div key={index} className="px-3">
-                            <Card className="route-card">
-                                <img src={aboutCarImage} alt="Blog" />
-                                <Card.Body>
-                                    <h4>{item.route}</h4>
-                                    <div className="price-row">
-                                        <span>SUV Price</span>
-                                        <strong>{item.suv}</strong>
-                                    </div>
-                                    <div className="price-row">
-                                        <span>Sedan Price</span>
-                                        <strong>{item.sedan}</strong>
-                                    </div>
-                                    <Button className="read-btn">READ MORE →</Button>
-
-                                </Card.Body>
-                            </Card>
-
-                        </div>
-                    ))}
-                </Slider> */}
-
                 <div
                     className=''
                     style={{ margin: "0 auto", textAlign: "-webkit-center" }}>
@@ -177,28 +137,3 @@ export default function Packages() {
         </>
     );
 }
-{/* <div className="py-4">
-    <Slider {...settings}>
-        {slides.map((item, index) => (
-            <div key={index} className="px-3">
-                <Card className="route-card">
-                    <img src={aboutCarImage} alt="Blog" />
-                    <Card.Body>
-                        <h4>{item.route}</h4>
-                        <div className="price-row">
-                            <span>SUV Price</span>
-                            <strong>{item.suv}</strong>
-                        </div>
-                        <div className="price-row">
-                            <span>Sedan Price</span>
-                            <strong>{item.sedan}</strong>
-                        </div>
-                        <Button className="read-btn">READ MORE →</Button>
-
-                    </Card.Body>
-                </Card>
-
-            </div>
-        ))}
-    </Slider>
-</div> */}

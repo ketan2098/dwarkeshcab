@@ -1,25 +1,5 @@
-// import { Container } from "react-bootstrap";
-
-// export default function Footer() {
-//     return (
-//         <footer className="bg-dark text-white py-4">
-//             <Container className="text-center">
-//                 <h5>Dwarkesh Cab</h5>
-//                 <p>24x7 Taxi Service | Safe & Reliable</p>
-//                 <small>© 2024 Dwarkesh Cab. All Rights Reserved.</small>
-//             </Container>
-//         </footer>
-//     );
-// }
-
-
 import { Container, Row, Col } from "react-bootstrap";
-import {
-    FaMapMarkerAlt,
-    FaEnvelope,
-    FaPhoneAlt,
-    FaWhatsapp,
-} from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaWhatsapp, } from "react-icons/fa";
 
 export default function Footer() {
     return (

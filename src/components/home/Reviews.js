@@ -1,4 +1,3 @@
-// src/components/Reviews.js
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 export default function Reviews() {
@@ -26,4 +25,3 @@ export default function Reviews() {
         </div>
     );
 }
-    

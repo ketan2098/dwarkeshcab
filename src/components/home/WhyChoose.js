@@ -1,49 +1,9 @@
-// src/components/WhyChoose.js
-import { useState } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
-
-const data = [
-    { title: "Clean Car", items: ["Sanitised", "Odour-Free", "Professionally Cleaned"] },
-    { title: "Transparent Billing", items: ["No Hidden Charges", "Simple Pricing"] },
-    { title: "Reliable Service", items: ["On Time", "Immediate Driver Details"] },
-    { title: "Professional Drivers", items: ["Verified", "Customer-Friendly"] },
-];
-
-const steps = [
-    {
-        no: "01",
-        text:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.",
-    },
-    {
-        no: "02",
-        text:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.",
-    },
-    {
-        no: "03",
-        text:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.",
-    },
-    {
-        no: "04",
-        text:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.",
-    },
-];
+import { Container } from "react-bootstrap";
 
 export default function WhyChoose() {
-
-    const [active, setActive] = useState(1); // default = 02
-
     return (
         <>
             <Container className="py-5">
-
-
-
-
-
                 <style jsx>{`
         .section-title {
           font-size: 2.5rem;

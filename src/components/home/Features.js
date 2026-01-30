@@ -1,10 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-import {
-    FaShieldAlt,
-    FaTaxi,
-    FaMoneyBillWave,
-    FaHeadset,
-} from "react-icons/fa";
+import { FaShieldAlt, FaTaxi, FaMoneyBillWave, FaHeadset, } from "react-icons/fa";
 
 const features = [
     {

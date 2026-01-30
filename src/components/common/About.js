@@ -1,5 +1,3 @@
-// src/components/AboutSection.jsx
-// import "./AboutSection.css";
 import React from "react";
 import aboutCarImage from "../../assets/about.png"; // Example image path
 
@@ -62,57 +60,3 @@ export default function AboutCab() {
 
     );
 }
-
-
-// <section className="about-section py-5">
-//     <div className="container">
-//         <div className="row align-items-center g-5">
-
-//             {/* LEFT IMAGE */}
-//             <div className="col-lg-6 col-md-12 position-relative">
-//                 <div className="about-img-wrapper">
-//                     <img
-//                         src={aboutCarImage} // replace path
-//                         alt="Taxi Service"
-//                         className="img-fluid about-car"
-//                     />
-
-//                     {/* Experience Badge */}
-//                     <div className="experience-badge">
-//                         <span>05 Years Of</span>
-//                         <strong>Quality Service</strong>
-//                     </div>
-
-//                     {/* Background Shape */}
-//                     <div className="about-shape"></div>
-//                 </div>
-//             </div>
-
-//             {/* RIGHT CONTENT */}
-//             <div className="col-lg-6 col-md-12">
-//                 <h6 className="section-subtitle">ABOUT US</h6>
-
-//                 <h2 className="section-title">
-//                     We Provide Trusted <span>Cab Service</span> In The State
-//                 </h2>
-
-//                 <p className="section-text">
-//                     There are many variations of passages of Lorem Ipsum available,
-//                     but the majority have suffered alteration in some form, by
-//                     injected humour.
-//                 </p>
-
-//                 <ul className="about-list">
-//                     <li>At vero eos et accusamus et iusto odio.</li>
-//                     <li>Established fact that a reader will be distracted.</li>
-//                     <li>Sed ut perspiciatis unde omnis iste natus sit.</li>
-//                 </ul>
-
-//                 <a href="/about" className="btn btn-warning px-4 py-3 rounded-pill fw-bold">
-//                     Book Now →
-//                 </a>
-//             </div>
-
-//         </div>
-//     </div>
-// </section>

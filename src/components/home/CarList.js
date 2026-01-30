@@ -1,4 +1,3 @@
-// src/components/CarList.js
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const cars = [
@@ -21,7 +20,7 @@ export default function CarList() {
                             <Card.Body className="text-center">
                                 <h5>{car.name}</h5>
                                 <strong>{car.price}</strong>
-                                <Button variant="warning" className="mt-3 w-100">
+                                <Button variant="warning" className="mt-3 w-100" onClick={() => window.location.href = 'tel:+917046648733'}>
                                     CALL NOW
                                 </Button>
                             </Card.Body>
