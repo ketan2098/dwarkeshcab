@@ -1,5 +1,9 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
-import { FaShieldAlt, FaTaxi, FaMoneyBillWave, FaHeadset, } from "react-icons/fa";
+import {
+    FaShieldAlt,
+    FaTaxi,
+    FaMoneyBillWave,
+    FaHeadset,
+} from "react-icons/fa";
 
 const features = [
     {
@@ -26,35 +30,52 @@ const features = [
 
 export default function FeatureSection() {
     return (
-        <div className="feature-section">
+        <section className="feature-section position-relative">
             <div className="feature-overlay"></div>
 
-            <Container className="position-relative">
+            <div className="container position-relative">
                 {/* Header */}
                 <div className="text-center mb-5">
-                    <span className="feature-subtitle">FEATURE</span>
-                    <h2 className="feature-title">Our Awesome Feature</h2>
-                    <div className="feature-underline"></div>
+                    <span className="feature-subtitle d-block mb-2">
+                        FEATURE
+                    </span>
+
+                    <h2 className="feature-title">
+                        Our Awesome Feature
+                    </h2>
+
+                    <div className="feature-underline mx-auto"></div>
                 </div>
 
                 {/* Cards */}
-                <Row className="g-4 justify-content-center">
+                <div className="row g-4 justify-content-center">
                     {features.map((item, index) => (
-                        <Col lg={3} md={6} sm={12} key={index}>
-                            <Card className="feature-card text-center h-100">
-                                <div className="feature-icon">
+                        <div
+                            className="col-lg-3 col-md-6 col-sm-12"
+                            key={index}
+                        >
+                            <div className="feature-card text-center h-100 p-4">
+
+                                <div className="feature-icon mb-3">
                                     {item.icon}
                                 </div>
-                                <h5 className="fw-bold">{item.title}</h5>
-                                <p>{item.desc}</p>
-                            </Card>
-                        </Col>
+
+                                <h5 className="fw-bold">
+                                    {item.title}
+                                </h5>
+
+                                <p className="mb-0">
+                                    {item.desc}
+                                </p>
+
+                            </div>
+                        </div>
                     ))}
-                </Row>
-            </Container>
+                </div>
+            </div>
 
             {/* Bottom Taxi Pattern */}
             <div className="taxi-strip"></div>
-        </div>
+        </section>
     );
 }

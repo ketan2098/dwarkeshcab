@@ -1,27 +1,54 @@
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <Navbar expand="lg" bg="dark" variant="dark" fixed="top">
-            <Container>
-                <Navbar.Brand as={Link} to="/">
-                    <strong style={{ color: "#FFC107" }}>Dwarkesh</strong>Cab
-                </Navbar.Brand>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div className="container">
 
-                <Navbar.Toggle />
-                <Navbar.Collapse>
-                    <Nav className="mx-auto">
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                    </Nav>
+                {/* BRAND */}
+                <Link className="navbar-brand fw-bold" to="/">
+                    <span style={{ color: "#FFC107" }}>Dwarkesh</span>Cab
+                </Link>
 
-                    <Button variant="outline-warning" onClick={() => window.location.href = 'tel:+917046648733'}>
+                {/* TOGGLER */}
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                {/* MENU */}
+                <div className="collapse navbar-collapse" id="mainNavbar">
+                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Home</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">About</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+
+                    {/* CALL BUTTON */}
+                    <a
+                        href="tel:+917046648733"
+                        className="btn btn-outline-warning"
+                    >
                         📞 +91 70466 48733
-                    </Button>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
     );
 }

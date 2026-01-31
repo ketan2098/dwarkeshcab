@@ -1,10 +1,12 @@
 import React from "react";
 import bannerImg from "../../assets/banner.png";
 
-
 export default function Hero() {
     return (
-        <section className="home-banner" style={{ backgroundColor: "#ffd000" }}>
+        <section
+            className="home-banner py-5"
+            style={{ backgroundColor: "#ffd000" }}
+        >
             <div className="container">
                 <div className="row align-items-center">
 
@@ -13,13 +15,18 @@ export default function Hero() {
                         <h1 className="fw-bold display-6">
                             Earn. Connect.<br />Contribute to Society
                         </h1>
+
                         <p className="mt-3 text-dark">
                             Partner with us, drive your car, and earn more.<br />
                             Experience a smarter way to grow.
                         </p>
-                        <button className="btn btn-dark px-4 py-2 mt-3">
+
+                        <a
+                            href="tel:+917046648733"
+                            className="btn btn-dark px-4 py-2 mt-3"
+                        >
                             SIGN UP NOW
-                        </button>
+                        </a>
                     </div>
 
                     {/* RIGHT IMAGE */}
@@ -28,6 +35,7 @@ export default function Hero() {
                             src={bannerImg}
                             alt="Car Banner"
                             className="img-fluid banner-car"
+                            style={{ maxWidth: "500px" }}
                         />
                     </div>
 

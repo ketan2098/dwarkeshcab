@@ -1,82 +1,96 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaWhatsapp, } from "react-icons/fa";
+import {
+    FaMapMarkerAlt,
+    FaEnvelope,
+    FaPhoneAlt,
+    FaWhatsapp,
+} from "react-icons/fa";
 
 export default function Footer() {
     return (
         <>
-            <footer className="footer-area">
-                <Container>
-                    <Row className="gy-4">
+            <footer className="footer-area pt-5 pb-4 bg-dark text-light">
+                <div className="container">
+                    <div className="row gy-4">
+
                         {/* BRAND */}
-                        <Col lg={4} md={6}>
+                        <div className="col-lg-4 col-md-6">
                             <div className="footer-brand">
                                 <h2>
-                                    Dwarkesh<span>CAB</span>
+                                    Dwarkesh<span className="text-warning">CAB</span>
                                 </h2>
-                                <p>
+                                <p className="text-light">
                                     Dwarkesh Cab is a service provider in Gujarat.
                                     We believe in client satisfaction.
                                 </p>
-                                <p className="copyright">
-                                    ©2025 All rights reserved.
+                                <p className="copyright mb-0 text-light">
+                                    © 2025 All rights reserved.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
                         {/* QUICK LINKS */}
-                        <Col lg={3} md={6}>
+                        <div className="col-lg-3 col-md-6 text-light">
                             <h5 className="footer-title">Quick Links</h5>
-                            <ul className="footer-links">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/about">About</a></li>
-                                <li><a href="/services">Services</a></li>
-                                <li><a href="/contact">Contact</a></li>
+                            <ul className="list-unstyled footer-links">
+                                <li><a href="/" className="text-light text-decoration-none">Home</a></li>
+                                <li><a href="/about" className="text-light text-decoration-none">About</a></li>
+                                <li><a href="/services" className="text-light text-decoration-none">Services</a></li>
+                                <li><a href="/contact" className="text-light text-decoration-none">Contact</a></li>
                             </ul>
-                        </Col>
+                        </div>
 
                         {/* CONTACT */}
-                        <Col lg={3} md={6}>
+                        <div className="col-lg-3 col-md-6 text-light">
                             <h5 className="footer-title">Get In Touch</h5>
-                            <ul className="footer-contact">
-                                <li style={{ cursor: "pointer" }}>
-                                    <FaMapMarkerAlt />
-                                    Akashvani, kalvadroad road, Rajkot.
+                            <ul className="list-unstyled footer-contact">
+                                <li className="mb-2 text-light">
+                                    <FaMapMarkerAlt className="me-2" />
+                                    Akashvani, Kalavad Road, Rajkot
                                 </li>
-                                <li>
-                                    <FaEnvelope />
-                                    <a href="mailto:dwarkeshcab@gmail.com" style={{ cursor: "pointer", textDecoration: "none", color: "inherit" }}>
+
+                                <li className="mb-2 text-light">
+                                    <FaEnvelope className="me-2" />
+                                    <a
+                                        href="mailto:dwarkeshcab@gmail.com"
+                                        className="text-light text-decoration-none"
+                                    >
                                         dwarkeshcab@gmail.com
                                     </a>
                                 </li>
-                                <li style={{ cursor: "pointer" }}>
-                                    <FaPhoneAlt />
-                                    <a href="tel:+917046648733" style={{ cursor: "pointer", textDecoration: "none", color: "inherit" }}>
 
+                                <li className="text-light">
+                                    <FaPhoneAlt className="me-2" />
+                                    <a
+                                        href="tel:+917046648733"
+                                        className="text-light text-decoration-none"
+                                    >
                                         +91 70466 48733
                                     </a>
                                 </li>
                             </ul>
-                        </Col>
+                        </div>
 
                         {/* MAP */}
-                        <Col lg={2} md={6}>
+                        <div className="col-lg-2 col-md-6">
                             <h5 className="footer-title">Location</h5>
                             <div className="footer-map">
                                 <iframe
                                     title="location"
                                     src="https://www.google.com/maps?q=Raiya%20Road%20Rajkot&output=embed"
-                                    allowFullScreen
                                     loading="lazy"
+                                    className="w-100 rounded"
+                                    style={{ height: "150px", border: 0 }}
                                 ></iframe>
                             </div>
-                        </Col>
-                    </Row>
-                </Container>
+                        </div>
+
+                    </div>
+                </div>
             </footer>
 
             {/* WhatsApp Floating Button */}
             <a
-                href="https://wa.me/7046648733"
+                href="https://wa.me/917046648733"
                 className="whatsapp-float"
                 target="_blank"
                 rel="noreferrer"
@@ -86,4 +100,3 @@ export default function Footer() {
         </>
     );
 }
-
