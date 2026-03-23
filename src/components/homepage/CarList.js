@@ -1,12 +1,12 @@
 const cars = [
     {
         name: "Toyota Innova",
-        price: "₹15 / KM",
+        price: "₹19 / KM",
         img: "https://cdn.pixabay.com/photo/2016/11/29/09/32/car-1867761_960_720.jpg",
     },
     {
         name: "Kia Carens",
-        price: "₹14 / KM",
+        price: "₹15 / KM",
         img: "https://cdn.pixabay.com/photo/2018/03/07/10/39/car-3207122_960_720.jpg",
     },
     {
@@ -39,7 +39,7 @@ export default function CarList() {
                                 <strong className="d-block">{car.price}</strong>
 
                                 <a
-                                    href="tel:+917046648733"
+                                    href="tel:+919429826555"
                                     className="btn btn-warning mt-3 w-100"
                                 >
                                     CALL NOW

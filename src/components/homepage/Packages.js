@@ -4,37 +4,66 @@ import junagadh from "../../assets/junagadh.webp";
 import ahmd from "../../assets/ahmd.webp";
 import mumbai from "../../assets/mumbai.webp";
 import bhavnagar from "../../assets/bhavnagar.webp";
+import Morbi from "../../assets/morbi.webp";
+import Somnath from "../../assets/somnath.webp";
+import Dwarka from "../../assets/dwarka.webp";
+import Baroda from "../../assets/baroda.webp";
 
 const slides = [
-    {
-        image: mumbai,
-        route: "Jamnagar To Mumbai",
-        suv: "₹2500",
-        sedan: "₹1800",
-    },
+
     {
         image: ahmd,
-        route: "Jamnagar To Ahmedabad",
-        suv: "₹3000",
-        sedan: "₹2200",
-    },
-    {
-        image: bhavnagar,
-        route: "Jamnagar To Bhavnagar",
-        suv: "₹2700",
+        route: "Rajkot To Ahmedabad",
+        suv: "₹3500",
         sedan: "₹2000",
     },
     {
+        image: Baroda,
+        route: "Rajkot To Baroda",
+        suv: "₹4500",
+        sedan: "₹3500",
+    },
+    {
+        image: mumbai,
+        route: "Rajkot To Mumbai",
+        suv: "₹13000",
+        sedan: "₹9000",
+    },
+    {
+        image: bhavnagar,
+        route: "Rajokot To Bhavnagar",
+        suv: "₹4300",
+        sedan: "₹3000",
+    },
+    {
         image: surat,
-        route: "Jamnagar To Surat",
-        suv: "₹6000",
-        sedan: "₹4800",
+        route: "Rajkot To Surat",
+        suv: "₹7000",
+        sedan: "₹5500",
     },
     {
         image: junagadh,
-        route: "Jamnagar To Junagadh",
-        suv: "₹6000",
-        sedan: "₹4800",
+        route: "Rajkot To Junagadh",
+        suv: "₹2800",
+        sedan: "₹1900",
+    },
+    {
+        image: Dwarka,
+        route: "Rajkot To Dwarka",
+        suv: "₹4500",
+        sedan: "₹3500",
+    },
+    {
+        image: Somnath,
+        route: "Rajkot To Somnath",
+        suv: "₹4500",
+        sedan: "₹3500",
+    },
+    {
+        image: Morbi,
+        route: "Rajkot To Morbi",
+        suv: "₹2500",
+        sedan: "₹2000",
     },
 ];
 
@@ -98,7 +127,7 @@ export default function Packages() {
                                     </div>
 
                                     <a
-                                        href="tel:+917046648733"
+                                        href="tel:+919429826555"
                                         className="btn btn-warning w-100"
                                     >
                                         BOOK NOW →

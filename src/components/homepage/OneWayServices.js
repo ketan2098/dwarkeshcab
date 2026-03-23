@@ -25,7 +25,7 @@ export default function OneWayServices() {
                                 <p className="mb-3">SUV: ₹2800 – ₹4500</p>
 
                                 <a
-                                    href="tel:+917046648733"
+                                    href="tel:+919429826555"
                                     className="btn btn-warning w-100"
                                 >
                                     CALL NOW

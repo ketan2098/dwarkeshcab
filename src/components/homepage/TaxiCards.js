@@ -5,11 +5,11 @@ import kia from "../../assets/kia.webp";
 import tempo from "../../assets/tempo.webp";
 
 const taxiData = [
-    { title: "Innova Crysta", price: "₹18 / km", img: innova },
-    { title: "Kia Carens", price: "₹14 / km", img: kia },
-    { title: "Ertiga", price: "₹12 / km", img: ertiga },
-    { title: "Swift Dzire", price: "₹10 / km", img: dzire },
-    { title: "Tempo Traveller", price: "₹24 / km", img: tempo },
+    { title: "Innova Crysta", price: "₹19 / km", img: innova },
+    { title: "Kia Carens", price: "₹15 / km", img: kia },
+    { title: "Ertiga SUV", price: "₹13 / km", img: ertiga },
+    { title: "Swift Dzire", price: "₹11 / km", img: dzire },
+    { title: "Tempo Traveller", price: "₹26 / km", img: tempo },
 ];
 
 export default function TaxiCards() {
@@ -44,7 +44,7 @@ export default function TaxiCards() {
 
                                     <div className="divider"></div>
 
-                                    <a href="tel:+917046648733" className="btn book-btn">
+                                    <a href="tel:+919429826555" className="btn book-btn">
                                         BOOK TAXI NOW →
                                     </a>
                                 </div>

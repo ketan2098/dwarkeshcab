@@ -41,19 +41,17 @@ export default function AboutCab() {
                         </h2>
 
                         <p className="section-text">
-                            There are many variations of passages of Lorem Ipsum available,
-                            but the majority have suffered alteration in some form, by
-                            injected humour.
+                            We are committed to delivering dependable cab services with a focus on safety, comfort, and customer satisfaction, making every ride smooth, affordable, and stress-free.
                         </p>
 
                         <ul className="about-list list-unstyled">
-                            <li>At vero eos et accusamus et iusto odio.</li>
-                            <li>Established fact that a reader will be distracted.</li>
-                            <li>Sed ut perspiciatis unde omnis iste natus sit.</li>
+                            <li>Safe and secure rides with verified drivers</li>
+                            <li>Timely pickups and hassle-free bookings</li>
+                            <li>24/7 availability for local and outstation travel</li>
                         </ul>
 
                         <a
-                            href="tel:7046648733"
+                            href="tel:9429826555"
                             className="btn btn-warning px-4 py-3 rounded-pill fw-bold"
                         >
                             Book Now →

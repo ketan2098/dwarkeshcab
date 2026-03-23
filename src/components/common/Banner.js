@@ -28,15 +28,12 @@ function Responsive() {
                                 </h3>
 
                                 <p className="banner-text">
-                                    There are many variations of passages available the majority
-                                    have suffered alteration in some form generators on the
-                                    Internet tend to repeat predefined chunks injected humour
-                                    randomised words look even slightly believable.
+                                    Book your ride in seconds and enjoy safe, affordable, and hassle-free travel with our trusted drivers, available anytime for local and long-distance journeys, ensuring comfort, reliability, and a smooth experience every time you travel with us.
                                 </p>
 
                                 <div className="d-flex gap-3 flex-wrap">
                                     <a
-                                        href="tel:7046648733"
+                                        href="tel:9429826555"
                                         className="btn btn-warning px-4 py-3 rounded-pill fw-bold"
                                     >
                                         Book Now →

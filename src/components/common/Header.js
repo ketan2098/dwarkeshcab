@@ -41,10 +41,10 @@ export default function Header() {
 
                     {/* CALL BUTTON */}
                     <a
-                        href="tel:+917046648733"
+                        href="tel:+919429826555"
                         className="btn btn-outline-warning"
                     >
-                        📞 +91 70466 48733
+                        📞 +91 94298 26555
                     </a>
                 </div>
 

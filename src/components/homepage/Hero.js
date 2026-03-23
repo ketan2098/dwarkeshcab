@@ -22,7 +22,7 @@ export default function Hero() {
                         </p>
 
                         <a
-                            href="tel:+917046648733"
+                            href="tel:+919429826555"
                             className="btn btn-dark px-4 py-2 mt-3"
                         >
                             SIGN UP NOW

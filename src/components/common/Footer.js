@@ -34,7 +34,7 @@ export default function Footer() {
                             <ul className="list-unstyled footer-links">
                                 <li><a href="/" className="text-light text-decoration-none">Home</a></li>
                                 <li><a href="/about" className="text-light text-decoration-none">About</a></li>
-                                <li><a href="/services" className="text-light text-decoration-none">Services</a></li>
+                                <li><a href="/" className="text-light text-decoration-none">Services</a></li>
                                 <li><a href="/contact" className="text-light text-decoration-none">Contact</a></li>
                             </ul>
                         </div>
@@ -61,10 +61,10 @@ export default function Footer() {
                                 <li className="text-light">
                                     <FaPhoneAlt className="me-2" />
                                     <a
-                                        href="tel:+917046648733"
+                                        href="tel:+919429826555"
                                         className="text-light text-decoration-none"
                                     >
-                                        +91 70466 48733
+                                        +91 94298 26555
                                     </a>
                                 </li>
                             </ul>
@@ -90,7 +90,7 @@ export default function Footer() {
 
             {/* WhatsApp Floating Button */}
             <a
-                href="https://wa.me/917046648733"
+                href="https://wa.me/919429826555"
                 className="whatsapp-float"
                 target="_blank"
                 rel="noreferrer"
