@@ -1,4 +1,3 @@
-import React from "react";
 import bannerImg from "../../assets/banner.png";
 
 export default function Hero() {

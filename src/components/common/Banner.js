@@ -3,7 +3,7 @@ import sliderImage from "../../assets/slider-2.jpg";
 
 function Responsive() {
     return (
-        <section className="banner-slick">
+        <section className="banner-slick py-2">
 
             <div className="banner-slide">
                 <img

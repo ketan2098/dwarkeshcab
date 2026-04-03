@@ -9,7 +9,7 @@ export default function AboutCab() {
 
                     {/* IMAGE SECTION */}
                     <div
-                        className="col-lg-6 col-md-12 position-relative"
+                        className="col-lg-6 col-md-12 position-relative pb-3"
                         style={{ marginBottom: "2rem" }}
                     >
                         <div className="about-img-wrapper position-relative">

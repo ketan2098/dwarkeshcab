@@ -254,8 +254,8 @@ code {
   }
 
   .experience-badge {
-    top: 10px;
-    left: 10px;
+    top: -6px;
+    left: 1px;
     font-size: 13px;
   }
 }
